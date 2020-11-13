@@ -1,5 +1,5 @@
 const handler = (auth, session, callback) => {
-  callback(null, {})
+  callback(null, { user: 1 })
 }
 
 module.exports = handler
