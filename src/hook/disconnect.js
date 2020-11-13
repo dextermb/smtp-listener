@@ -1,5 +1,5 @@
-const handler = (session, callback) => {
-  return callback()
+const handler = (session) => {
+
 }
 
 module.exports = handler
