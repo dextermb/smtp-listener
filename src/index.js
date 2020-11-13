@@ -11,7 +11,7 @@ const server = new SMTP({
   onRcptTo: hook.to
 })
 
-const port = 25
+const port = process.env.PORT
 
 server.listen(port, () => {
   console.log(`> SMTP server listening on port ${port}`)
